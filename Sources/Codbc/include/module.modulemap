@@ -1,0 +1,9 @@
+module Codbc [system] {
+    header "../notEmpty.h"
+    header "/usr/include/sql.h"
+    header "/usr/include/sqlext.h"
+    header "/usr/include/sqltypes.h"
+    header "/usr/include/sqlucode.h"
+    link "odbc"
+    export *
+}
